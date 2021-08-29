@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .navbar p{
+    color: #fff;
+  }
+  .second{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .second input{
+    width: 100%;
+  }
+  .second button{
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+  .second .search{
+    background: black;
+    color: white;
+    border: none;
+  }
+  table{
+    margin-top:10px;
+    width: 100%;
+  }
+  table th{
+    min-width: 100px;
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    max-width: 100px;
+    text-align: center;
+  }
+  table td{
+    text-align: center;
+  }
+  .avatar{
+    width: 60px;
+    border-radius: 8px;
+  }
